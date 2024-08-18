@@ -3,18 +3,26 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 5%;
+    justify-content: center;
+    flex-direction: column;
+    
+
 }
 .container{
+    width: 90vw;
+    height: 80vh;
+    max-width: 1000px;
+    max-height: 700px;
+    min-width: 300px;
+    min-height: 300px;
     display: grid;
-    height:80%;
-    width: 60%;  
     grid-template-columns: repeat(4, 1fr); 
     grid-template-columns: repeat(4, 1fr);
-    padding: 5%;
+    grid-gap: 10px;
+    
+    
+
 }
 .container > div {
     border: 2px solid rgb(233, 171, 88);
@@ -22,10 +30,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 5%;
-    gap:10%;
-    margin: 10px;
+    padding-left:15px;
 
+    
   }
 .one {
     background-color: aquamarine;
@@ -70,11 +77,19 @@ body{
   .status{
 
   }
+  .attribution{
+    margin-top: 20%;
+    background-color: brown;
+  }
   @media (max-width: 900px), (max-height: 680px) {
     .container {
-      width: auto;
-      height: auto; /* Allow height to adjust based on content */
-      display: flex;
-      flex-direction: column;
+    background-color: blue;
+    width: 80vw;
+    height: 100vh; /* Allow height to adjust based on content */
+    max-width: 80vw;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
     }
 }
