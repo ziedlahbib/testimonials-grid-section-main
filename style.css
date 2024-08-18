@@ -50,3 +50,11 @@ body{
     grid-column: 2/4;
     grid-row: 3/5;
   }
+  .one__title{
+    display: flex;
+
+  }
+  .avatar{
+    object-fit: cover;
+    border-radius: 50%;
+  }
