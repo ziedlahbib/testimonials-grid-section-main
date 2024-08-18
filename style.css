@@ -60,10 +60,8 @@ body{
   }
   @media (max-width: 900px), (max-height: 680px) {
     .container {
-      width: 80vw;
-      height: 100%; /* Allow height to adjust based on content */
-      max-width: 80vw;
-      max-height: 100vh;
+      width: auto;
+      height: auto; /* Allow height to adjust based on content */
       display: flex;
       flex-direction: column;
     }
