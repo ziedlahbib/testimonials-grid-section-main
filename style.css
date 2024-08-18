@@ -58,6 +58,18 @@ body{
     object-fit: cover;
     border-radius: 50%;
   }
+  .nom{
+
+  }
+  .one__text{
+
+  }
+  .one__text2{
+
+  }
+  .status{
+
+  }
   @media (max-width: 900px), (max-height: 680px) {
     .container {
       width: auto;
